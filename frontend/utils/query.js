@@ -1,0 +1,1 @@
+export function buildQuery(filters, page, PAGE_SIZE) {  const params = new URLSearchParams();  const allowedKeys = ['AppName', 'UserId', 'LogId', 'Level', 'from', 'to'];  allowedKeys.forEach(key => {    if (filters[key]) params.append(key, filters[key]);  });  params.append('page', page);  params.append('limit', PAGE_SIZE);  return params.toString();} 

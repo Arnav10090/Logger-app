@@ -1,0 +1,1 @@
+export const LOG_LEVELS = [  { value: '', label: 'All Levels' },  { value: 'info', label: 'Info' },  { value: 'error', label: 'Error' },  { value: 'warn', label: 'Warn' },  { value: 'debug', label: 'Debug' },];export const PAGE_SIZE = 20;export const API_BASE_URL = 'http://localhost:5000'; 
